@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --font-serif: 'Forum', cursive;
+    --font-sans: 'Outfit', sans-serif;
+
+    --color-white: #FFF0E2;
+    --color-black: #171717;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-sans);
+    color: var(--color-black);
+    background-color: var(--color-white);
+}
